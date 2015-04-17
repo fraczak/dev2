@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title Mes photos
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    each photo, index in db
+      figure.photo(id='#{index}')
+        a(href='#{photo.url}')
+          img(src='#{photo.url}')
+        figurecaption 
+          span #{photo.nom}
+          a(href='/delete?index=#{index}') effacer le fichier
+    div
+      a(href='/') Page d'acceuil

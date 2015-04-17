@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+img {
+  width: 300px;
+}
+
+figurecaption span {
+  margin: 10px;
+  font-size: 200%;
+  }
+
+.photo {
+    padding: 50px;
+    background-color: blue;
+}
+.header {
+    padding: 10px 10px 10px 100px;
+    color: red;
+}
+.center {
+    padding: 30px;
+    text-align: center;
+}

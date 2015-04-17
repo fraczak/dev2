@@ -1,0 +1,16 @@
+{
+  "name": "devoir-2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "~4.12.3",
+    "jade": "~1.9.2",
+    "multer": "~0.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "~1.3.7"
+  }
+}

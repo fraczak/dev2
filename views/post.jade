@@ -1,0 +1,15 @@
+doctype html
+html(lang="fr")
+  head
+   meta(charset="utf-8")
+   title Déposer une photo
+   link(rel='stylesheet', href='/css/style.css')
+  body
+    form.center(action="/add", method="post", enctype="multipart/form-data")
+      | Nom: 
+      input(type='text', name='nom')
+      input(type='file', name='fichier')
+      div.center
+        input(type='submit', value='Envoyer')
+      
+      
